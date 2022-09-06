@@ -71,7 +71,7 @@ let searchSubmitHandler = function(event) {
         response.json().then(function(data) {
     
             $("#five-day").empty();
-            for(i = 6; i <= data.list.length; i += 7){
+            for(i = 8; i <= data.list.length; i += 9){
     
                 
                 let fiveDayCard =`
